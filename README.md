@@ -14,13 +14,11 @@ This is the README for extension "insert-api-data".
 
 ## Api Return Json
 
-key值必须为`image_medium`.
+必须为此格式.
 ```json
 {
     "code": 200,
     "message": "success",
-    "data": {
-        "image_medium": "https://"
-    }
+    "data": "https://"
 }
 ```

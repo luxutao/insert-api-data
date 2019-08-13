@@ -53,7 +53,7 @@ class GetApiData {
         axios.get(this.config.url)
         .then((response) => {
             if (response.data.code == 200) {
-                this.replaceEditorSelection(response.data.data.image_medium);
+                this.replaceEditorSelection(response.data.data);
             } else {
                 window.showInformationMessage("发生意外错误，请查看接口访问状态.");
                 return;

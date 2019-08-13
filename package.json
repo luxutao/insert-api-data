@@ -2,7 +2,7 @@
   "name": "insert-api-data",
   "displayName": "Insert Api Data",
   "description": "Insert Api Return Data",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "luxutao",
   "engines": {
     "vscode": "^1.31.0"
