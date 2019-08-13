@@ -2,7 +2,7 @@
   "name": "insert-api-data",
   "displayName": "Insert Api Data",
   "description": "Insert Api Return Data",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "luxutao",
   "engines": {
     "vscode": "^1.31.0"
@@ -24,8 +24,8 @@
     "keybindings": [
       {
         "command": "extension.getApiData",
-        "key": "ctrl+a ctrl+p",
-        "mac": "cmd+a cmd+p",
+        "key": "ctrl+p ctrl+i",
+        "mac": "cmd+p cmd+i",
         "when": "editorTextFocus"
       }
     ],
